@@ -1,7 +1,6 @@
-This directory contains everything needed for Chapter 6
-(i.e., Problem 6 in Act I, Scene III (Numbers)).
-
-**Files for STUDENTS**
+This directory contains everything needed for
+**Chapter 6 (Do You See My Dog?)** in
+*Computational Thinking and Problem Solving*.
 
 `images/cosmo.jpg`: Small JPEG of my dog Cosmo.
 

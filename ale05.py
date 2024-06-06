@@ -18,4 +18,3 @@ with Image.open(imfile) as im:
             im.putpixel((x,y), (r, g//50, b//50))
 
     im.save('images/ale05.png')
-    # im.show()   # Feel free to use if you're running locally

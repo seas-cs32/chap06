@@ -16,4 +16,3 @@ for i in range(sz[0]):
         pixels[i,j] = ???
 
 im.save('images/ale02.png')
-# im.show()   # Feel free to use if you're running locally

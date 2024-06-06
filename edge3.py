@@ -17,7 +17,7 @@ for i in range(sz[0]):
         # pixels[i,j] = 0 if j < 25 else 255    # horizontal boundary
 
 # Show initial image
-im.show()
+im.save('images/out_orig.png')
 
 # Create a new B&W image into which we'll put the filtered result
 filtered = Image.new('L', sz)
@@ -33,4 +33,4 @@ for i in range(1, sz[0]-1):
                         pixels[i+1,j] * -1 + pixels[i+1,j+1] * -1)
 
 # Show resulting image
-filtered.show()
+filtered.save('images/out_filtered.png')

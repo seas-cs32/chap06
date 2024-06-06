@@ -13,4 +13,4 @@ else:
 with Image.open(imfile) as im:
     # Apply a filter that detects edges
     filtered = im.filter(ImageFilter.CONTOUR)
-    filtered.show()
+    filtered.save('images/out.png')

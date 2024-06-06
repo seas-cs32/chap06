@@ -13,8 +13,7 @@ pixels = im.load()
 # Set the color of each pixel
 for i in range(sz[0]):
     for j in range(sz[1]):
-        # Creates a checkerboard
+        # Create a checkerboard
         pixels[i,j] = 255
 
 im.save('images/ale03.png')
-# im.show()   # Feel free to use if you're running locally

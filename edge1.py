@@ -16,4 +16,4 @@ for i in range(sz[0]):
         # Creates a diagonal fade
         pixels[i,j] = i + j
 
-im.show()
+im.save('images/out.png')

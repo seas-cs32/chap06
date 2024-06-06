@@ -5,7 +5,7 @@ import time
 next_bound = 1
 
 while True:
-    # FIXME: update i as specified in the directions
+    # FIXME: update i so it doubles each time
     if i > next_bound:
         print(f'Passed {i}')
         next_bound *= 10
