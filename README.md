@@ -1,6 +1,7 @@
 This directory contains everything needed for
 **Chapter 6 (Do You See My Dog?)** in
-*Computational Thinking and Problem Solving*.
+[*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
+by Michael D. Smith.
 
 `images/cosmo.jpg`: Small JPEG of my dog Cosmo.
 

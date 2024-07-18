@@ -1,4 +1,4 @@
-### chap06/edge3.py: Build a simple image containing an obvious edge
+### chap06/edge3.py
 from PIL import Image
 
 # Width and height of our image
