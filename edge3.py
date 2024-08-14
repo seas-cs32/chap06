@@ -4,7 +4,7 @@ from PIL import Image
 # Width and height of our image
 sz = (100, 100)
 
-# Create a single plane of black and white pixels, initialized to black
+# Create a single plane of grayscale pixels, initialized to black
 im = Image.new('L', sz)
 
 # Create direct access to the pixels in the image
