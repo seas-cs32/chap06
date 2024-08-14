@@ -26,11 +26,11 @@ fpixels = filtered.load()
 # Apply an edge-detection convolution (it's just math for B&W only!)
 for i in range(1, sz[0]-1):
     for j in range(1, sz[1]-1):
-        fpixels[i,j] = (pixels[i-1,j-1] * -1 + pixels[i-1,j] * -1 + 
+        fpixels[i,j] = (pixels[i-1,j-1] * -1 + pixels[i-1,j  ] * -1 + 
                         pixels[i-1,j+1] * -1 + pixels[i  ,j-1] * -1 + 
-                        pixels[i  ,j] * 8  + 
+                        pixels[i  ,j  ] *  8 + 
                         pixels[i  ,j+1] * -1 + pixels[i+1,j-1] * -1 + 
-                        pixels[i+1,j] * -1 + pixels[i+1,j+1] * -1)
+                        pixels[i+1,j  ] * -1 + pixels[i+1,j+1] * -1)
 
 # Show resulting image
 filtered.save('images/out_filtered.png')
