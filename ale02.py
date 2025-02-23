@@ -5,7 +5,7 @@ from PIL import Image
 sz = (100, 100)
 
 # Create a single plane of RGB pixels, initialized to black
-im = Image.new('L', sz)
+im = Image.new('RGB', sz)
 
 # Create direct access to the pixels in the image
 pixels = im.load()

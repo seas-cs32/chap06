@@ -3,10 +3,6 @@ This directory contains everything needed for
 [*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
 by Michael D. Smith.
 
-`images/cosmo.jpg`: Small JPEG of my dog Cosmo.
-
-`images/duck.jpg`: Small JPEG of the ddb50 duck.
-
 `edges.py, edge[1-3].py`: Scripts used to understand edge detection in images.
 
 `ale02.py`: Starter code for ALE \#2.
